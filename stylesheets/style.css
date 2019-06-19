@@ -1,0 +1,175 @@
+/* line 1, ../sass/style.scss */
+body {
+  margin: 0;
+}
+
+/* line 5, ../sass/style.scss */
+footer {
+  background-color: #000;
+  color: #fff;
+  width: 100vw;
+  max-width: 2000px;
+  position: absolute;
+  left: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* line 17, ../sass/style.scss */
+footer p {
+  margin: 0;
+  padding: 1em 0;
+  display: block;
+}
+
+/* line 24, ../sass/style.scss */
+h1 {
+  font-size: 4em;
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+}
+
+/* line 30, ../sass/style.scss */
+#nav {
+  margin: 0 auto;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  padding: 0;
+  height: 4em;
+  background-color: transparent;
+  text-align: center;
+  transition: top 0.5s ease;
+}
+/* line 40, ../sass/style.scss */
+#nav ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 75%;
+}
+@media (max-width: 1148px) {
+  /* line 40, ../sass/style.scss */
+  #nav ul {
+    padding-left: 65%;
+  }
+}
+@media (max-width: 820px) {
+  /* line 40, ../sass/style.scss */
+  #nav ul {
+    padding-left: 50%;
+  }
+}
+@media (max-width: 576px) {
+  /* line 40, ../sass/style.scss */
+  #nav ul {
+    padding: 0;
+  }
+}
+/* line 54, ../sass/style.scss */
+#nav ul li {
+  margin: 0;
+  float: left;
+  height: 4em;
+  line-height: 4em;
+  font-family: 'Verdana', 'Helvetica', sans-serif;
+  font-weight: 600;
+}
+/* line 61, ../sass/style.scss */
+#nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0 1.25em;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* line 73, ../sass/style.scss */
+.pic_contain {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 35em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 82, ../sass/style.scss */
+.pic_contain h1 {
+  color: #fff;
+}
+
+/* line 87, ../sass/style.scss */
+.know_hero {
+  background-image: url(../img/knowwhereHero.png);
+}
+
+/* line 91, ../sass/style.scss */
+.hist {
+  background-image: url(../img/history.png);
+}
+
+/* line 96, ../sass/style.scss */
+.gamora {
+  background-image: url(../img/gamora.png);
+}
+
+/* line 100, ../sass/style.scss */
+.tivan {
+  background-image: url(../img/tivan.png);
+}
+
+/* line 104, ../sass/style.scss */
+.thanos {
+  background-image: url(../img/thanos.png);
+}
+
+/* line 109, ../sass/style.scss */
+.pic_wrap {
+  display: flex;
+}
+
+/* line 115, ../sass/style.scss */
+.info {
+  background-color: #fff;
+  color: #000;
+  width: 100vw;
+}
+/* line 119, ../sass/style.scss */
+.info p {
+  margin: 0 auto;
+  color: #fff;
+  font-family: 'Verdana', sans-serif;
+  font-size: 1.15em;
+  line-height: 1.5em;
+  width: 40%;
+  padding: 4em 0;
+}
+/* line 128, ../sass/style.scss */
+.info h1 {
+  color: #000;
+  text-align: center;
+  padding: 1em 0;
+  width: 100%;
+}
+/* line 134, ../sass/style.scss */
+.info .btn {
+  background: transparent;
+  color: #fff;
+  border: 3px solid #fff;
+  margin: 0 auto;
+  width: 5em;
+  padding: .25em;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Helvetica', sans-serif;
+  transition: background .5s ease, color .5s ease;
+  cursor: pointer;
+}
+/* line 146, ../sass/style.scss */
+.info .btn:hover {
+  background: #fff;
+  color: #000;
+}
